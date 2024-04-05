@@ -478,7 +478,7 @@ border-top: none;
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button {
+.modal-icons-x {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -493,10 +493,19 @@ border-top: none;
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
-.button:hover,
-.button:focus {
+.modal-icons-x:hover,
+.modal-icons-x:focus {
   background-color: #404bbf;
   border: none;
+}
+.footer-icons-x {
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-icons-x:hover,
+.footer-icons-x:focus {
+  fill: #ffffff;
+}
+.modal-text {
+  
 }
