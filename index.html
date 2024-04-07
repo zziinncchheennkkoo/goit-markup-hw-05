@@ -498,8 +498,15 @@
               <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-text-comment"></textarea>
           </div>
           <div class="modal-field-privacy">
-            <input type="checkbox" id="user-privacy" name="user-privacy" value="true" class="user-privacy"/>
-            <label for="user-privacy" class="user-privacy-text">I accept the terms and conditions of the <span class="user-privacy-color">Privacy Policy</span></label>
+            <input type="checkbox" id="user-privacy" name="user-privacy" value="true" required class="user-privacy"/>
+            <label for="user-privacy" class="user-privacy-text">
+              <span class="privacy">
+                <svg class="privacy-icons" wibth="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>I accept the terms and conditions of the 
+                <a href="" class="user-privacy-color">Privacy Policy</a>
+             </label>
           </div>
           <button type="submit">Send</button>
         </form>
@@ -507,4 +514,3 @@
     </div>
   </body>
 </html>
- 
