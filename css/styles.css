@@ -445,18 +445,21 @@ border-top: none;
 .footer-icons {
   fill: #f4f4fd;
 }
+
+
 .footer--text {
+  font-weight: 500;
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  gap: 24px; 
 }
 .footer-from {
   display: flex;
 }
 .footer-label {
-  gap: 24px; 
 }
 .footer-input {
   width: 264px;
