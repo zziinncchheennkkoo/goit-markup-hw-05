@@ -541,19 +541,17 @@ margin-bottom: 8px;
   margin-bottom: 8px;
   padding-left: 38px;
 }
- .modal-input:focus{
+ .modal-input:focus {
   border: 1px solid #4d5ae5;
 }
+ .modal-input:focus + .modal-incons-wrap {
+  fill: #4d5ae5;
+ }
 .modal-incons-wrap {
-  width: 18px;
-  height: 24px;
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-incons-wrap:hover,
-.modal-incons-wrap:focus {
-  fill: #4d5ae5;
-}
+
