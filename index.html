@@ -451,13 +451,19 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="footer-2">
           <p class="footer--text">Subscribe</p>
+          <form action="footer-from">
+            <label for="footer-email" class="footer-label"></label>
+            <input type="email" id="email" name="email" class="footer-input" placeholder="E-mail" />
+              <button class="footer-button" type="submit">Subscribe</button>
+          </form>
         </div>
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <--! is-open ->
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-icons-x">
           <svg class="modal-icons" width="8" height="8">
