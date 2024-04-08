@@ -447,6 +447,9 @@ border-top: none;
 }
 
 
+.footer-two {
+  margin-left: 80px;
+}
 .footer--text {
   font-weight: 500;
   margin-bottom: 16px;
@@ -454,10 +457,10 @@ border-top: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  gap: 24px; 
 }
 .footer-from {
   display: flex;
+  gap: 24px; 
 }
 .footer-label {
 }
@@ -492,8 +495,7 @@ border-top: none;
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
-  
+  border-radius: 4px; 
 }
 
 
@@ -550,7 +552,7 @@ border-top: none;
   border: none;
 }
 .modal-icons-x:hover,
-.modal-icons-x:focus +
+.modal-icons-x:focus >
 .modal-icons:hover,
 .modal-icons:focus {
   fill: #ffffff;
