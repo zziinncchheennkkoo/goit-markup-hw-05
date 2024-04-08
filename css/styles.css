@@ -550,7 +550,7 @@ border-top: none;
   border: none;
 }
 .modal-icons-x:hover,
-.modal-icons-x:focus >
+.modal-icons-x:focus>
 .modal-icons:hover,
 .modal-icons:focus {
   fill: #ffffff;
