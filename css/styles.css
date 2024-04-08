@@ -488,6 +488,7 @@ border-top: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -557,8 +558,7 @@ border-top: none;
 }
 .modal-icons-x:hover,
 .modal-icons-x:focus >
-.modal-icons:hover,
-.modal-icons:focus {
+.modal-icons {
   fill: #ffffff;
 }
 .modal-icons {
