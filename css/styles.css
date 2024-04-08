@@ -497,7 +497,7 @@ border-top: none;
 }
 
 
-/**--------------------------modal---------------------*/
+/***=======================modal======================***/
 .backdrop {
   position: fixed;
   top: 0;
@@ -549,12 +549,14 @@ border-top: none;
   background-color: #404bbf;
   border: none;
 }
-.modal-icons {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+.modal-icons-x:hover,
+.modal-icons-x:focus >
 .modal-icons:hover,
 .modal-icons:focus {
   fill: #ffffff;
+}
+.modal-icons {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-text {
   font-weight: 500;
